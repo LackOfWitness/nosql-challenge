@@ -45,6 +45,54 @@ This project analyzes food hygiene rating data from the UK Food Standards Agency
 - Identification of establishments with high ratings in specific geographic areas
 - Analysis of establishments with low hygiene scores by local authority
 
+### 1. Which establishments have a hygiene score equal to 20?
+
+According to the analysis, there are 41 establishments with a hygiene score equal to 20. The first document in the results shows:
+
+- BusinessName: The Chase Rest Home
+- BusinessType: Caring Premises
+- AddressLine1: 5-6 Southfields Road
+- AddressLine2: Eastbourne
+- AddressLine3: East Sussex
+
+### 2. Which establishments in London have a RatingValue greater than or equal to 4?
+
+The analysis shows that there are 33 establishments in London with a RatingValue greater than or equal to 4. The first document in the results is:
+
+- BusinessName: Charlie's
+- BusinessType: Other catering premises
+- AddressLine1: Oak Apple Farm Building 103 Sheernes Docks
+- AddressLine2: Sheppy Kent
+- LocalAuthorityName: City of London Corporation
+- RatingValue: 4
+
+### 3. What are the top 5 establishments with a RatingValue of 5, sorted by lowest hygiene score, nearest to the new restaurant added, "Penang Flavours"?
+
+The top 5 establishments are:
+
+1. Volunteer
+2. Plumstead Manor Nursery
+3. Atlantic Fish Bar
+4. Iceland
+5. Howe and Co Fish and Chips - Van 17
+
+### 4. How many establishments in each Local Authority area have a hygiene score of 0? Sort the results from highest to lowest, and print out the top ten local authority areas.
+
+The top 10 local authority areas with establishments having a hygiene score of 0 are:
+
+1. Thanet (1130)
+2. Greenwich (882)
+3. Maidstone (713)
+4. Newham (711)
+5. Swale (686)
+6. Chelmsford (680)
+7. Medway (672)
+8. Bexley (607)
+9. Southend-On-Sea (586)
+10. Tendring (542)
+
+The analysis shows that there are a total of 55 Local Authorities with establishments having a hygiene score of 0.
+
 ## Future Work
 - Incorporate more recent data for trend analysis
 - Develop a dashboard for interactive data exploration
